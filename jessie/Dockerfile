@@ -1,14 +1,14 @@
 # Dockerizing a base images with:
 #
-#   - Debian Stretch
+#   - Debian Jessie
 #   - IT, ES and EN Locale
 #
-# Build:    docker build -t ermac/debian:stretch .
+# Build:    docker build -t ermac/debian:jessie .
 #
-# Run:      docker run -ti ermac/debian:stretch bash
+# Run:      docker run -ti ermac/debian:jessie bash
 #
 
-FROM debian:stretch
+FROM debian:jessie
 
 MAINTAINER Fabio Martino <fabiomartino@libero.it>
 
